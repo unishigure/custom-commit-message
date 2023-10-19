@@ -24,3 +24,4 @@ git config --local core.hooksPath .githooks
 - [見やすく意味のあるコミットメッセージを効率的に書く方法](https://zenn.dev/y16ra/articles/23c06e672091af)
 - [commit.templateのすすめ #Git - Qiita](https://qiita.com/hhujk5/items/09d2d8aa299528f03ed2)
 - [git - pre-commit/hook: No such file or directory - Stack Overflow](https://stackoverflow.com/a/63386102)
+- [sed コマンド【使い方 まとめ】 - RAKUS Developers Blog | ラクス エンジニアブログ](https://tech-blog.rakus.co.jp/entry/20211022/sed)

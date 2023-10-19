@@ -4,9 +4,15 @@ For readable commit messages.
 
 ## Usage
 
+Copy `.gitmessage` and `.githooks` to Your Project.
+
+Set commit message template
+
 ```ps1
 git config commit.template .gitmessage
 ```
+
+Set githooks path
 
 ```ps1
 git config --local core.hooksPath .githooks

@@ -1,6 +1,6 @@
-# Git commit test
+# Custom commit message template
 
-For readable commit messages.
+For readable commit messages✨
 
 ![sample](images/sample.png)
 

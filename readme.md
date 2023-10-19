@@ -4,6 +4,7 @@ For readable commit messages.
 
 ![sample](images/sample.png)
 
+## Setup
 
 Copy `.gitmessage` and `.githooks` to Your Project.
 
@@ -18,6 +19,20 @@ Set githooks path
 ```ps1
 git config --local core.hooksPath .githooks
 ```
+
+## Usage
+
+Prepared template
+
+![before](images/default_textarea.png)
+
+Replace commit message
+
+![after](images/edited_textarea.png)
+
+Commit!
+
+![sample](images/commit_result.png)
 
 ## Ref
 

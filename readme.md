@@ -2,7 +2,8 @@
 
 For readable commit messages.
 
-## Usage
+![sample](images/sample.png)
+
 
 Copy `.gitmessage` and `.githooks` to Your Project.
 

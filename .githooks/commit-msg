@@ -6,29 +6,38 @@ prefix=`head -n 1 $COMMIT_MSG | awk '{ print $1 }'`
 emoji=""
 
 case $prefix in
-    "fix:")
-        emoji=":bug:"
-        ;;
-    "feat:")
-        emoji=":sparkles:"
-        ;;
-    "docs:")
-        emoji=":memo:"
-        ;;
-    "style:")
-        emoji=":lipstick:"
-        ;;
-    "refactor:")
-        emoji=":art:"
-        ;;
-    "test:")
-        emoji=":test_tube:"
+    "build:")
+        emoji=":building_construction:"
         ;;
     "chore:")
         emoji=":rainbow:"
         ;;
-    "wip:")
-        emoji=":construction:"
+    "ci:")
+        emoji=":construction_worker:"
+        ;;
+    "docs:")
+        emoji=":memo:"
+        ;;
+    "feat:")
+        emoji=":sparkles:"
+        ;;
+    "fix:")
+        emoji=":bug:"
+        ;;
+    "perf:")
+        emoji=":rocket:"
+        ;;
+    "refactor:")
+        emoji=":art:"
+        ;;
+    "revert:")
+        emoji=":rewind:"
+        ;;
+    "style:")
+        emoji=":lipstick:"
+        ;;
+    "test:")
+        emoji=":test_tube:"
         ;;
     *)
         echo "The specified prefix is undefined.";

@@ -27,6 +27,9 @@ case $prefix in
     "chore:")
         emoji=":rainbow:"
         ;;
+    "wip:")
+        emoji=":construction:"
+        ;;
     *)
         echo "The specified prefix is undefined.";
 		exit 0

@@ -9,6 +9,7 @@ prefix: "description"
 # perf:     A code change that improves performance
 # test:     Adding missing or correcting existing tests
 # chore:    Changes to the build process or auxiliary tools and libraries such as documentation generation
+# wip:      Work in progress
 #
 # ref: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type
 
@@ -21,6 +22,6 @@ prefix: "description"
 # :rocket:       🚀 perf:
 # :test_tube:    🧪 test:
 # :rainbow:      🌈 chore:
-# :construction: 🚧 Work in progress.
+# :construction: 🚧 wip:
 #
 # ref: https://gitmoji.dev/

@@ -6,6 +6,9 @@ prefix=`head -n 1 $COMMIT_MSG | awk '{ print $1 }'`
 emoji=""
 
 case $prefix in
+    "init:")
+        emoji=":tada:"
+        ;;
     "build:")
         emoji=":building_construction:"
         ;;

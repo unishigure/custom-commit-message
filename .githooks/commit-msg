@@ -48,7 +48,7 @@ case $prefix in
 		;;
 esac
 
-message="$emoji$prefix"
+message="$emoji $prefix"
 sed -i "s/$prefix/$message/" $COMMIT_MSG
 
 exit 0

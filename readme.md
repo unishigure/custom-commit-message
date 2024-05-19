@@ -1,6 +1,6 @@
 # Custom commit message template
 
-For readable commit messages✨
+For cute commit messages✨
 
 ![sample](images/sample.png)
 
